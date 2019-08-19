@@ -1,5 +1,7 @@
 ## 边缘节点部署
 
+下面的操作都是在边缘节点上执行
+
 ### 修改配置文件conf/edge.yaml
 
 websocket.url根据实际情况修改，主要修改的是云端的ip，websocket的端口，本例中是31000
@@ -12,7 +14,9 @@ websocket.url根据实际情况修改，主要修改的是云端的ip，websocke
 - keyfile: /etc/kubeedge/certs/edge.key
 
 
-### 在边缘节点执行：
+### 启动边缘节点需要的服务
+
+#### 使用二进制文件启动
     ```shell
     # run mosquitto
     mosquitto -d -p 1883
@@ -28,7 +32,7 @@ websocket.url根据实际情况修改，主要修改的是云端的ip，websocke
     ```
     **Note:** Please run edge using the users who have root permission.
 
-#### 使用systemd管理服务
+#### 使用systemd启动
 
 ```shell
 cp -r conf /etc/kubeedge/
