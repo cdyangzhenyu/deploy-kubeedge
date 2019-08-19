@@ -1,5 +1,7 @@
 ## kubeedge 1.0版本部署步骤
 
+### [0.官方参考](https://github.com/kubeedge/kubeedge)
+
 ### [1.部署云端服务](./cloud/README.md)
 
 ### 2.添加新的边缘节点到云端
@@ -22,3 +24,4 @@ fb4ebb70-2783-42b8-b3ef-63e2fd6d242e   NotReady   edge     13s
 
 ### [3.部署边缘节点服务](./edge/README.md)
 
+### [4.部署应用到边缘节点](./demo/README.md)

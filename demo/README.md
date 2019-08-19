@@ -13,6 +13,7 @@
 spec:
       nodeName: fb4ebb70-2783-42b8-b3ef-63e2fd6d242e
 ...
+```
 
 #### 使用NodeSelector启动应用
 
