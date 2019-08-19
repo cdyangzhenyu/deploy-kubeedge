@@ -1,4 +1,6 @@
-## kubeedge 1.0版本部署步骤[官方](https://github.com/kubeedge/kubeedge)
+## kubeedge 1.0版本部署步骤
+
+### [0.官方参考](https://github.com/kubeedge/kubeedge)
 
 ### [1.部署云端服务](./cloud/README.md)
 
