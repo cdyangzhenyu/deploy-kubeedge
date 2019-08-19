@@ -7,9 +7,9 @@ websocket.url根据实际情况修改，主要修改的是云端的ip，websocke
 
 ### 从云端拷贝证书到边缘节点，具体证书如下：
 
-cafile: /etc/kubeedge/ca/rootCA.crt
-certfile: /etc/kubeedge/certs/edge.crt
-keyfile: /etc/kubeedge/certs/edge.key
+- cafile: /etc/kubeedge/ca/rootCA.crt
+- certfile: /etc/kubeedge/certs/edge.crt
+- keyfile: /etc/kubeedge/certs/edge.key
 
 
 ### 在边缘节点执行：
